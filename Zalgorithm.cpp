@@ -13,7 +13,6 @@ void ZalgorithmBasedMatching(
     const std::string& P,
     const std::string& T,
     std::list<int>* matches) {
-    // TODO: Implement this
     std::vector<int> Z;
     std::string S = P + "$" + T;
     Zalgorithm(S, &Z);
